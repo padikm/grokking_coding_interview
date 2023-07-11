@@ -40,10 +40,5 @@ func main() {
 	//recursion.NormalTriangle(0, 0, 5)
 	//recursion.PrintSubSeqOfStr("inclu")
 	//fmt.Println(leet.RobCircle([]int{1, 2, 1, 1}))
-	r := leet.TreeNode{Val: 3}
-	r.Left = &leet.TreeNode{Val: 8}
-	r.Left.Right = &leet.TreeNode{Val: 3}
-	r.Right = &leet.TreeNode{Val: 3}
-	r.Right.Right = &leet.TreeNode{Val: 1}
-	fmt.Println(leet.RobTree(&r))
+	fmt.Println(leet.RestoreIpAddresses("25525511135"))
 }
